@@ -79,7 +79,7 @@ const ContractAddress=()=>{
               className="btn"
               onClick={getBalance}
             >
-              Your balance:
+              Your balance: 
             </button>
           </div>
           {myresult ? (
@@ -87,7 +87,7 @@ const ContractAddress=()=>{
               className="balance"
               htmlFor="username"
             >
-              {`Your Balance : ${myresult.toFixed(2)}`}
+              {`Your Balance : ${myresult}`}
             </label>
           ) : null}
         </form>
