@@ -63,7 +63,7 @@ const ContractAddress=()=>{
               className="title"
               htmlFor="username"
             >
-             Enter Wallet address
+             Enter Token address
             </label>
             <br></br>
             <input
@@ -79,7 +79,7 @@ const ContractAddress=()=>{
               className="btn"
               onClick={getBalance}
             >
-              Show Balance Adress
+              Your balance:
             </button>
           </div>
           {myresult ? (
