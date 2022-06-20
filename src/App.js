@@ -11,6 +11,7 @@ function App() {
      {/* <ETHAddress />
      <ETHName /> */}
       <ContractAddress />
+      <h1>Hii</h1>
      </React.Fragment>
   );
 }
